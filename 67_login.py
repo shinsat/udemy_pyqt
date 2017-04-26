@@ -13,15 +13,15 @@ class main(QWidget,Ui_Form):
         QWidget.__init__(self)
         self.setupUi(self)
 
-#        self.lineEdit.setPlaceholderText('Enter Your Name')
-#        self.lineEdit_2.setPlaceholderText("Enter Password")
-#        self.lineEdit_2.setEchoMode(QLineEdit.Password)
+        self.lineEdit.setPlaceholderText('Enter Your Name')
+        self.lineEdit_2.setPlaceholderText("Enter Password")
+        self.lineEdit_2.setEchoMode(QLineEdit.Password)
 
-#        self.pushButton.clicked.connect(self.login)
+        self.pushButton.clicked.connect(self.login)
 
-#    def login(self):
-#        if self.lineEdit.text() == 'admin' and self.lineEdit_2.text() == 'admin' :
-#            print('Welcome')
+    def login(self):
+        if self.lineEdit.text() == 'admin' and self.lineEdit_2.text() == 'admin' :
+            print('Welcome')
 
 
 
